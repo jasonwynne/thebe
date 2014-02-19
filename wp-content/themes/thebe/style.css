@@ -1,0 +1,16 @@
+/*
+Theme Name: Thebe & Co. 
+Description: Responsive Theme Designed by Thebe & Co.  
+Version: 1.0
+Author: Jason Wynne
+Author URI: http://dvelpr.com
+
+Tags: Thebe, Dvelpr, Clean, Custom, Easy, Responsive-Layout, Bootstrap 3
+
+*/
+
+@import "js/bootstrap/css/bootstrap.min.css";
+@import "css/typography.css";
+@import "css/global.css";
+@import "css/thebefonts.css";
+@import "css/layout.css";
