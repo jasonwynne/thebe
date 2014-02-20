@@ -49,21 +49,16 @@ get_header();
 			<?php }else{ ?>
 			<div class="home-hero-single">
 			<?php } ?>
-			  <?php if($heroCount==0){?>
-				<img class="img-responsive hcount<?php echo $heroCount; ?>" alt="<?php echo $workImage['alt']; ?>"src="<?php echo $workImage['url']; ?>" onload="setDivHeight();"/>
-			  <?php }else{ ?>
 				<img class="img-responsive hcount<?php echo $heroCount; ?>" alt="<?php echo $workImage['alt']; ?>" title="<?php echo $workImage['title']; ?>" src="<?php echo $workImage['url']; ?>" />
-			  <?php } ?>			
 			</div>
-			<?php $heroCount = $heroCount+1; ?>
 			<?php endwhile; ?>
 
 		<?php endif; ?>
 		
+		<img class="img-responsive client-blank blank-sizer" src="<?php bloginfo('template_directory'); ?>/images/blanks/client-blank.jpg" alt="blank-sizer" />
+		<div class="clear"></div>	 
+		</div><!-- END HOME HERO  -->
 		
-			
-			
-		</div>
 		<div class="slide-count-holder clearfix">
 	    <div class="arrow-holder arrow-right" data-direction="r"><span class="glyphicon glyphicon-chevron-right"></span></div>
 	    <div class="slide-count">(<span class="hh-curr-num">1</span>/<span class="hh-total">12</span>)</div>

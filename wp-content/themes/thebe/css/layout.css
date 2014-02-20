@@ -254,7 +254,6 @@ Home Page Template
 	position: relative;
   overflow: hidden;
   width: 100%;
-  height: 350px;
 }
 
 .home-hero-single {
@@ -318,7 +317,10 @@ button.model-close:focus {
 }
 
 
-
+.blank-sizer {
+   position: relative;
+   z-index: 0;  
+}
 
 /***************************************************
 Normal Page Template
@@ -351,7 +353,6 @@ Featured Work Section
 	position: relative;
   overflow: hidden;
   width: 100%;
-  height: 117px;
 }
 
 .fi-image img{

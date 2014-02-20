@@ -13,9 +13,7 @@
 
 	<div class="col-xs-12">
 
-    <div class="home-hero-holder clearfix">
-		  
-	    
+  <div class="home-hero-holder clearfix">	      
 		<?php if(get_field('home_hero_slideshow')): ?>
 	
 			<?php while(has_sub_field('home_hero_slideshow')): 
@@ -50,12 +48,15 @@
 			  <?php } ?>
 			</div>
 			<?php $heroCount = $heroCount+1; ?>
+			
 			<?php endwhile; ?>
         
 		<?php endif; ?>
+		<img class="img-responsive hh-blank blank-sizer" src="<?php bloginfo('template_directory'); ?>/images/blanks/hh-blank.jpg" alt="blank-sizer" />
 		<div class="clear"></div>	  	
 		</div>
-	</div>
+	</div> <!-- End Home Hero Holder -->
+	
 	<div class="col-xs-12 slide-count-holder clearfix">
 	  <div class="arrow-holder arrow-right" data-direction="r"><span class="glyphicon glyphicon-chevron-right"></span></div>
 	  <div class="slide-count">(<span class="hh-curr-num">1</span>/<span class="hh-total">12</span>)</div>

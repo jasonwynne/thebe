@@ -40,13 +40,11 @@ $featured_placard = get_field('feature_work_placard');
 	<div class="col-sm-3 col-xs-6 featured-work" data-link="<?php the_permalink(); ?>" data-post-id="<?php echo $postid ?>" style="padding: 5px;">
 		<div class="fi-holder">
       <div class="fi-image">
-        <?php if($featuredCount==0){?>  
-          <img class="img-responsive fw-image fcount<?php echo $featuredCount; ?>" alt="<?php echo $featured_image['alt']; ?>" title="<?php echo $featured_image['title']; ?>" src="<?php echo $featured_image['url']; ?>" onload="setFwHeight();"/>
-        <?php }else{ ?>
           <img class="img-responsive fw-image fcount<?php echo $featuredCount; ?>" alt="<?php echo $featured_image['alt']; ?>" title="<?php echo $featured_image['title']; ?>" src="<?php echo $featured_image['url']; ?>" />
-        <?php } ?>
           <img class="img-responsive fw-placard" alt="<?php echo $featured_placard['alt']; ?>" title="<?php echo $featured_placard['title']; ?>" src="<?php echo $featured_placard['url']; ?>" />
       </div>
+      <img class="img-responsive thumb-blank blank-sizer" src="<?php bloginfo('template_directory'); ?>/images/blanks/thumb-blank.jpg" alt="blank-sizer" />
+		  <div class="clear"></div>	 
 		</div>
 	</div>
   
