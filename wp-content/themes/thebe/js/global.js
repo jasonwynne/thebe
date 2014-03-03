@@ -70,7 +70,7 @@ $(document).ready(function(){
 	
 	
 	
-	if(slideCount>2){		
+	if(slideCount>1){		
 	
 		var hhsTimer = setInterval(function(){fadeAway()},tweenTime);
 		
