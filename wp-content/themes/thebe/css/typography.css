@@ -1,0 +1,35 @@
+p {
+  font-family: "HelveticaNeueW02-55Roma", arial, san-serif;
+  font-size: 11px;
+  line-height: 15px;
+}
+
+b, strong {
+  font-family:"HelveticaNeueW02-75Bold", arial, san-serif;
+}
+
+i {
+  font-family:"HelveticaNeueW02-56Ital", arial, san-serif;
+}
+
+h1 {
+  font-family:"HelveticaNeueW02-75Bold", arial, san-serif;
+  font-size: 15px;
+  line-height: 17px;
+  color: #ef4a34;
+  margin: 0 0 10px;
+}
+
+h2 {
+  font-family:"HelveticaNeueW02-Thin", arial, san-serif;
+  font-size: 19px;
+  line-height: 24px;
+  margin: 0 0 10px;
+}
+
+h3 {
+  font-family:"HelveticaNeueW02-75Bold", arial, san-serif;
+  font-size: 12px;
+  line-height: normal;
+  margin: 0 0 10px;
+}

@@ -13,7 +13,7 @@ if ( function_exists('register_sidebars') ):
   ));
 endif;
 
-add_editor_style( 'editor-style.css' );
+add_editor_style( 'css/editor-style.css' );
 
 function my_init_method() {
   if (is_admin() == false ):
