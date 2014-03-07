@@ -520,6 +520,11 @@ Mobile Menu
   color: #999999;
 }
 
+.four-oh-four {}
+.four-oh-four img {
+  margin: 0 auto;
+}
+
 
 /***************************************************
 Media Queries - leave at bottom of page
