@@ -18,7 +18,7 @@ add_editor_style( 'css/editor-style.css' );
 function my_init_method() {
   if (is_admin() == false ):
     wp_deregister_script( 'jquery' );
-    wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js');
+    wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js');
     wp_enqueue_script( 'jquery' );
     wp_register_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap/js/bootstrap.min.js', array('jquery'));
     wp_enqueue_script( 'bootstrap' );

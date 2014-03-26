@@ -17,9 +17,18 @@ get_header();
 		<div class="contact-copy"><?php the_content(); ?></div>
 	</div>
 	<div class="col-sm-9 col-xs-12">
-	  <a href="http://mapq.st/1kFHGIm">
-		  <img class="img-responsive" alt="thebe-map" title="click to view on google maps" src="<?php bloginfo('template_directory'); ?>/images/thebe-map.jpg" />
+	<?php
+	  $mapImage = get_field('map_image');
+	  $mapLink = get_field('map_link');
+	  
+	  if($mapLink == "" || $mapLink == null ){
+	?>
+    <img class="img-responsive" alt="<?php echo $mapImage['alt']; ?>" title="<?php echo $mapImage['title']; ?>" src="<?php echo $mapImage['url']; ?>" />
+	<?php }else{ ?>
+		<a href="<?php echo $mapLink ?>">
+    <img class="img-responsive" alt="<?php echo $mapImage['alt']; ?>" title="<?php echo $mapImage['title']; ?>" src="<?php echo $mapImage['url']; ?>" />
 		</a> 
+	<?php } ?>
 	</div>
 	<?php endwhile; wp_reset_query(); ?>
 

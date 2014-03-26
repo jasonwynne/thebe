@@ -42,7 +42,7 @@
 			<div class="home-hero-single">
 			<?php } ?>
 			  <?php if($heroCount==0){?>
-				<img class="img-responsive hcount<?php echo $heroCount; ?>" alt="<?php echo $hhImage['alt']; ?>"src="<?php echo $hhImage['url']; ?>" onload="setDivHeight();"/>
+				<img class="img-responsive hcount<?php echo $heroCount; ?>" alt="<?php echo $hhImage['alt']; ?>"src="<?php echo $hhImage['url']; ?>"/>
 			  <?php }else{ ?>
 				<img class="img-responsive hcount<?php echo $heroCount; ?>" alt="<?php echo $hhImage['alt']; ?>" title="<?php echo $hhImage['title']; ?>" src="<?php echo $hhImage['url']; ?>" />
 			  <?php } ?>

@@ -12,11 +12,11 @@
 <div class="row">
 	<?php if (is_page('work')){ ?>
 	<div class="col-xs-12">
-	   <div class="page-title-holder">Featured Work</div> 
+	   <div class="page-title-holder">Client Stories</div> 
 	<?php }else{ ?>
 	<div class="col-xs-12 line-space-row-bottom">  
 	  <hr>
-	  <div class="page-title-holder" style="margin-top:15px;">Featured Work</div>
+	  <div class="page-title-holder" style="margin-top:15px;">Client Stories</div>
 	<?php } ?>  
   </div>	
 </div>

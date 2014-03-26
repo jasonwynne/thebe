@@ -2,8 +2,7 @@ $(document).ready(function(){
 
 	
 	$( window ).resize(function() {
-		setDivHeight();
-		setFwHeight();
+		
 	});
 	
 	$('.mobile-header-container').click(function(){
@@ -141,16 +140,3 @@ $(document).ready(function(){
 $.fn.hasAttr = function(name) {  
    return this.attr(name) !== undefined;
 };	
-
-
-// this is a function to get the height on the div to hide slideshow images - deprecated add blank-image for sizing
-
-// function setDivHeight() {
-// 	var setHeight = $('.hcount0').height();
-// 	$('.home-hero-holder').css('height', setHeight+'px');
-// }
-// 
-// function setFwHeight() {
-// 	var setHeight = $('.fcount0').height();
-// 	$('.fi-holder').css('height', setHeight+'px');
-// }
